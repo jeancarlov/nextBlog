@@ -9,10 +9,10 @@ const layoutStyle = {
 
 const Layout = props => (
   <div style={layoutStyle}>
-    <head> 
+    <div> 
       <title>100% Hustle </title>
       <link rel= "stylesheet" href= "https://bootswatch.com/4/cerulean/bootstrap.min.css"></link>
-    </head>
+    </div>
     <Navbar />
     <div className="container">
       {props.children}

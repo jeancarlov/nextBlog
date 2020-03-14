@@ -60,8 +60,6 @@ import Link from 'next/link';
 
 const Navbar = () => (
   <div> 
-   
-
     <nav className="navbar navbar-expand navbar-dark bg-dark mb-4">
     <div className="container">
       <a className="navbar-brand" href="/">100% Hustle</a>

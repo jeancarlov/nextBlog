@@ -18,7 +18,7 @@ import Link from 'next/link';
 
 
 const Header = () => (
-  <div>
+  <div> 
     <ul>
       <li> <Link href="/">
       <a>Home</a>

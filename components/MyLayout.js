@@ -1,5 +1,8 @@
 // import Header from './Header';
 import Navbar from './Header';
+// import SignIn from '../pages/SignIn'
+
+
 
 const layoutStyle = {
   margin: 20,

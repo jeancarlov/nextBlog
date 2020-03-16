@@ -67,7 +67,7 @@ const Index = props => (
 // const username = process.env.TVMAZE_USERNAME;
 // const keyApi= process.env.TVMAZE_API_KEY;
 Index.getInitialProps = async function() {
-  const res = await fetch('https://api.tvmaze.com/search/shows?q=');
+  const res = await fetch('https://api.tvmaze.com/search/shows?q=batman&username=jeancarlov&key=bcnrSXV_A7G-SKVecyE6WiWxmxLbm2Mp');
   const data = await res.json();
 
   

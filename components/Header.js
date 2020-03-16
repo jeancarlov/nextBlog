@@ -1,4 +1,7 @@
 import Link from 'next/link';
+import SignIn from '../pages/SignIn'
+import SignUp from '../pages/SignUp'
+
 
 // const linkStyle = {
 //   marginRight: 15
@@ -70,6 +73,12 @@ const Navbar = () => (
           </li>
           <li className="nav-item">
             <Link href="/about"><a className="nav-link">About</a></Link>
+          </li>
+          <li className="nav-item">
+            <Link href="/SignIn"><a className="nav-link">SignIn</a></Link>
+          </li>
+          <li className="nav-item">
+            <Link href="/SignUp"><a className="nav-link">SignUp</a></Link>
           </li>
         </ul>
       </div>
